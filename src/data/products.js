@@ -3,7 +3,7 @@ export const products = [
     id: 'ring-001',
     name: 'Lumière Solitaire',
     collection: 'Eternal',
-    price: 4800,
+    price: 1,
     material: '18k White Gold, 1.2ct Diamond',
     description:
       'A timeless solitaire of breathtaking clarity. Set in cool 18k white gold with a hand-selected round brilliant diamond, the Lumière captures light from every angle — an enduring symbol of devotion.',
@@ -25,7 +25,7 @@ export const products = [
     id: 'ring-002',
     name: 'Pavé Éternity Band',
     collection: 'Eternal',
-    price: 3200,
+    price: 1,
     material: '18k Yellow Gold, Diamond Pavé',
     description:
       'A continuous circle of hand-set pavé diamonds in warm 18k yellow gold. Wearable alone or stacked, the Éternity Band is as versatile as it is beautiful.',
@@ -47,7 +47,7 @@ export const products = [
     id: 'ring-003',
     name: 'Floral Alhambra',
     collection: 'Jardin',
-    price: 5600,
+    price: 1,
     material: '18k Rose Gold, Mother of Pearl',
     description:
       'Inspired by the lucky clover, four blossoms of mother of pearl are set in a soft 18k rose gold frame. A garden of fortune to wear every day.',
@@ -69,7 +69,7 @@ export const products = [
     id: 'ring-004',
     name: 'Baguette Stack',
     collection: 'Moderne',
-    price: 2600,
+    price: 1,
     material: '18k White Gold, Baguette Diamonds',
     description:
       'A sleek row of step-cut baguette diamonds channel-set in 18k white gold. Architectural precision meets quiet glamour.',
@@ -91,7 +91,7 @@ export const products = [
     id: 'ring-005',
     name: 'Sapphire Halo',
     collection: 'Lumière',
-    price: 6400,
+    price: 1,
     material: '18k White Gold, Blue Sapphire & Diamonds',
     description:
       'A cushion-cut Ceylon sapphire of deep cornflower blue, haloed by brilliant-cut diamonds. A statement of royal refinement.',
@@ -113,7 +113,7 @@ export const products = [
     id: 'ring-007',
     name: 'Moissanite Wedding Band',
     collection: 'Eternal',
-    price: 149,
+    price: 1,
     material: 'S925 Sterling Silver, 18K Gold Plated, Moissanite',
     description:
       'A brilliant moissanite wedding band crafted in S925 sterling silver with an 18k gold plating. Lab-created moissanite stones deliver the fire and brilliance of diamond at an accessible price — a modern symbol of lasting commitment.',
@@ -135,7 +135,7 @@ export const products = [
     id: 'ring-006',
     name: 'Rose Cut Signet',
     collection: 'Moderne',
-    price: 1900,
+    price: 1,
     material: '18k Yellow Gold',
     description:
       'A refined take on the classic signet. The domed rose-cut surface catches light with quiet drama — an heirloom for the modern wearer.',
