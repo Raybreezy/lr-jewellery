@@ -27,7 +27,7 @@ export default function Header() {
 
         <nav className={`header__nav ${menuOpen ? 'header__nav--open' : ''}`}>
           <NavLink to="/shop" onClick={() => setMenuOpen(false)}>Collection</NavLink>
-          <NavLink to="/about" onClick={() => setMenuOpen(false)}>Atelier</NavLink>
+          <NavLink to="/customization" onClick={() => setMenuOpen(false)}>Customization</NavLink>
         </nav>
 
         <Link to="/" className="header__logo">
