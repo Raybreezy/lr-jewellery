@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-ivory: #FAF9F6;
+  --color-cream: #F2EFE9;
+  --color-black: #0D0D0D;
+  --color-charcoal: #2A2A2A;
+  --color-grey: #8A8A8A;
+  --color-grey-light: #D6D6D6;
+  --color-gold: #B8973A;
+  --color-gold-light: #D4AF6A;
+  --color-accent: #8EC6C5;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+
+  --max-width: 1320px;
+  --header-height: 80px;
+
+  --transition: 0.25s ease;
+  --transition-slow: 0.45s ease;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: var(--font-sans);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.btn-primary {
+  display: inline-block;
+  background: var(--color-black);
+  color: var(--color-ivory);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 16px 40px;
+  transition: background var(--transition), color var(--transition);
+  border: 1px solid var(--color-black);
+}
+
+.btn-primary:hover {
+  background: var(--color-charcoal);
+}
+
+.btn-outline {
+  display: inline-block;
+  background: transparent;
+  color: var(--color-black);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  border: 1px solid var(--color-black);
+  transition: background var(--transition), color var(--transition);
+}
+
+.btn-outline:hover {
+  background: var(--color-black);
+  color: var(--color-ivory);
+}
+
+.divider {
+  width: 48px;
+  height: 1px;
+  background: var(--color-gold);
+  margin: 0 auto;
+}

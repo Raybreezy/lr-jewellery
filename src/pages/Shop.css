@@ -1,0 +1,114 @@
+.shop {
+  padding-top: var(--header-height);
+  min-height: 100vh;
+}
+
+.shop__hero {
+  background: var(--color-cream);
+  text-align: center;
+  padding: 80px 20px 60px;
+  border-bottom: 1px solid var(--color-grey-light);
+}
+
+.shop__hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  margin-bottom: 12px;
+}
+
+.shop__hero p {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--color-grey);
+}
+
+.shop__body {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+/* Toolbar */
+.shop__toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-grey-light);
+  padding-bottom: 20px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.shop__filters {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.shop__filter-btn {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  color: var(--color-grey);
+  transition: color var(--transition), border-color var(--transition);
+  border-bottom: 1px solid transparent;
+}
+
+.shop__filter-btn:hover {
+  color: var(--color-black);
+}
+
+.shop__filter-btn--active {
+  color: var(--color-black);
+  border-bottom-color: var(--color-gold);
+}
+
+.shop__sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-grey);
+}
+
+.shop__sort select {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--color-charcoal);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-grey-light);
+  padding: 4px 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.shop__count {
+  font-size: 0.75rem;
+  color: var(--color-grey);
+  margin-bottom: 32px;
+}
+
+.shop__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 24px;
+}
+
+@media (max-width: 1024px) {
+  .shop__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .shop__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 12px;
+  }
+}
