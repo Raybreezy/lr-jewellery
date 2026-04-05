@@ -110,6 +110,28 @@ export const products = [
     badge: 'Limited',
   },
   {
+    id: 'ring-007',
+    name: 'Moissanite Wedding Band',
+    collection: 'Eternal',
+    price: 149,
+    material: 'S925 Sterling Silver, 18K Gold Plated, Moissanite',
+    description:
+      'A brilliant moissanite wedding band crafted in S925 sterling silver with an 18k gold plating. Lab-created moissanite stones deliver the fire and brilliance of diamond at an accessible price — a modern symbol of lasting commitment.',
+    details: [
+      'Stone: lab-created moissanite (diamond alternative)',
+      'Base metal: S925 sterling silver',
+      'Plating: 18k gold',
+      'Hypoallergenic',
+    ],
+    sizes: ['46', '48', '50', '52', '54', '56', '58'],
+    images: [
+      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80',
+      'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80',
+    ],
+    featured: false,
+    badge: 'New',
+  },
+  {
     id: 'ring-006',
     name: 'Rose Cut Signet',
     collection: 'Moderne',
